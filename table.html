@@ -1,11 +1,11 @@
 <html>
 <head>
-    <title>table</title>
+    <title> table </title>
 </head>
-<table border="4" align="center" bgcolor="lightgreen" cellpadding="20" cellspacing="0" width="50%" rules="none">
-    <caption>My table</caption>
+<table border="5" align="center" bgcolor="sky blue" cellpadding="25" cellspacing="10" width="50%" rules="rows">
+    <caption>My Table</caption>
     <thead>
-        <tr bgcolor="purple">
+        <tr bgcolor="red">
             <th>Name</th>
             <th>Age</th>
             <th>Branch</th>
@@ -25,10 +25,81 @@
     </tbody>
     <tfoot>
         <tr>
-            <td>Total</td>
+            <td bgcolor="orange">Total</td>
             <td>2</td>
             <td>2</td>
         </tr>
     </tfoot>
 </table>
-</html>
+
+
+<br><br><br><br><br>
+<hr>
+<table border="1" align="center" cellpading="10" rules="all">
+    <caption>Rowspan</caption>
+    <tr> 
+        <td rowspan="2">A</td>
+        <td>B</td>
+        <hr>
+        <tr>
+            <td>C</td>
+        </tr>
+    </tr>
+</table>
+
+
+<br><br><br><br><br>
+<hr>
+<table border="1" align="center" cellpading="10" rules="all">
+    <caption>Colspan</caption>
+    <tr> 
+        <td colspan="2" align="center">A</td>
+        <tr>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+    </tr>
+</table>
+
+<br><br><br><br><br>
+<hr>
+<table border="1" align="center" cellpading="10" height="500" width="50%" rules="all">
+    <tr>
+        <td rowspan="2" bgcolor="skyblue">A</td>
+        <td colspan="2" bgcolor="lightred">B</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td rowspan="2" bgcolor="yellow">D</td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="lightgreen">E</td>
+    </tr>
+</table>
+
+
+<br><br><br><br><br>
+<hr>
+<table border="5" align="center" cellpading="100" cellspacing="1000" height="100" width="50%" rules="all">
+    <tr>
+        <td rowspan="2" bgcolor="yellow">A</td>
+        <td bgcolor="lightgreen">B</td>
+        <td rowspan="3" bgcolor="yellow">D</td>
+        <td colspan="2" bgcolor="pink">E</td>
+        <td bgcolor="skyblue">F</td>
+    </tr>
+    <tr>
+        <td bgcolor="skyblue">C</td>
+        <td rowspan="2" bgcolor="skyblue">G</td>
+        <td rowspan="2" bgcolor="lightgreen">H</td>
+        <td rowspan="2" bgcolor="yellow">I</td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="pink">J</td>
+    </tr>
+    <tr>
+        <td colspan="3" bgcolor="lightgreen">K</td>
+        <td bgcolor="yellow">L</td>
+        <td colspan="2" bgcolor="pink">M</td>
+    </tr>
+    </table>
